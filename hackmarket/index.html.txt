@@ -1,0 +1,271 @@
+<!DOCTYPE html><html lang="en-gb"><head>
+		  
+  
+  <meta name="generator" content="Joomla! - Open Source Content Management">
+  <title>Login/My Apps</title>
+  <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+		
+<link href="css/preview-page.css" rel="stylesheet">
+<link href="css/appcss.css" rel="stylesheet">					<script async="" src="js/analytics.js"></script><script>
+				var overlayBodyLoad = false,
+					overlayTimeout = false,
+					overlayElement,
+					overlayTimeoutId;
+				function overlayDisplay() {
+					if(overlayBodyLoad && overlayTimeout) {
+						overlayElement = document.createElement('div');
+						overlayElement.setAttribute('style','bottom: 0px;z-index: 111;top: 0px;position: absolute;width: 100%;height: 100%;');
+						document.body.appendChild(overlayElement);
+					}
+				}
+				function overlayLoad() {
+					overlayBodyLoad = true;
+					overlayDisplay();
+				}
+				overlayTimeoutId = setTimeout(function() {
+					overlayTimeout = true;
+					overlayDisplay();
+					overlayTimeoutId = null;
+				}, 1000);
+			</script>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, maximumscale=1.0,user-scalable=0">
+		<meta property="og:title" content="Check out the new App I've created on AppBuilder - Hack Market">
+		<meta property="og:site_name" content="AppBuilder">
+		<meta property="og:url" content="http://appshed.com/appbuilder/preview/362878">
+		<meta property="og:image" content="https://d1yeqpqwjn2qg3.cloudfront.net/BhXeKC-UTbj5_FH7-GxyGiei1n0=/57x57/http://appshed-id-images.s3-website-eu-west-1.amazonaws.com/6652248">
+	</head>
+	<body>
+		<div class="navbar navbar-fixed-top" xmlns="http://www.w3.org/1999/html">
+	<div class="navbar-inner">
+		<div class="container">
+			<ul class="nav">
+				<li class="dropdown">
+					<a href="https://appshed.com/" class="home-icon"><i></i></a>
+				</li>
+			</ul>
+			<ul class="nav pull-right">
+				<li><a href="/appbuilder">AppBuilder</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="icon-mobile-phone"></i>
+						Device
+						<i class="icon-caret-down"></i>
+					</a>
+					<ul class="dropdown-menu">
+						<li><span>iOS</span></li>
+						<li><a data-device="iphone"><i class="icon-mobile-phone"></i> iPhone 4S</a></li>
+						<li><a data-device="iphone5"><i class="icon-mobile-phone"></i> iPhone 5</a></li>
+                        <li><a data-device="iphone5s"><i class="icon-mobile-phone"></i> iPhone 5S</a></li>
+						<li><a data-device="ipad"><i class="icon-tablet"></i> iPad</a></li>
+                        <li><a data-device="ipadair"><i class="icon-tablet"></i> iPad Air</a></li>
+						<li class="divider"></li>
+						<li><span>Android</span></li>
+						<li><a data-device="androidsm"><i class="icon-mobile-phone"></i> Xperia</a></li>
+						<li><a data-device="android"><i class="icon-mobile-phone"></i> Galaxy Nexus</a></li>
+						<li><a data-device="nexus7"><i class="icon-tablet"></i> Nexus 7</a></li>
+						<li class="divider"></li>
+						<li><span>Blackberry</span></li>
+						<li><a data-device="blackberry"><i class="icon-phone"></i> BlackBerry Bold</a></li>
+						<li><a data-device="blackberry10"><i class="icon-mobile-phone"></i> BlackBerry 10</a></li>
+						<li><a data-device="playbook"><i class="icon-tablet"></i> PlayBook</a></li>
+						<li class="divider"></li>
+						<li><a data-device-horizontal=""><i class="icon-resize-horizontal"></i> Horizontal</a></li>
+						<li><a data-device-realsize=""><i class="icon-resize-small"></i> Real Size</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						AppShed Academy
+						<i class="icon-caret-down"></i>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="/appbuilder/academy/registerintro"><i class="icon-shopping-cart"></i> Register my School</a></li>					</ul>
+				</li>
+									<li>
+						<a href="/appbuilder/login"><i class="icon-signin"></i> Login</a></li>
+					
+							</ul>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="span-phone">
+			<div id="phone" class="phone-container  phone-options:{" app":"362878","request":{"url":"https:\="" \="" appshed.com\="" index.php","data":{"secret":"nlkfzdpo","published":"0","itemid":"108"}},"fullscreen":false,"background":true,"statusbar":true,"storage":false,"files":false,"update":false,"updatesingle":false,"browserhistory":false,"published":1718033967,"style":"iphone5s","splash":true}"=""></div>
+		</div>
+		<div class="span-toolbox">
+			<div class="box2 box2-first">
+				<div class="content app-description-box">
+					<div class="app-name">
+						Hack Market					</div>
+				</div>
+			</div>
+            <div class="preview-content-wrapper">
+
+                <div class="preview-content-device-events border-bottom-groove">
+                    <div class="title events">Device events</div>
+                    <span class="hint"></span>
+                    <div>
+                        <div class="map-preview appshed-p-template">
+                            <div class="title pull-left clmn-20 clmn">GPS Location:</div>
+                            <div class="pull-left map-container clmn-80 clmn">
+                                <div id="map"></div>
+                            </div>
+                            <span class="hint"></span>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="shake-preview appshed-p-template">
+                            <div class="pull-left clmn-20 clmn title">Shake:</div>
+                            <div class="pull-left clmn-80 clmn">
+                                <div id="shake-btn" class="btn">
+                                    Shake
+                                </div>
+                            </div>
+                            <span class="hint"></span>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="compass-preview appshed-p-template">
+                            <div class="pull-left title clmn-20 clmn">Compass:</div>
+                            <div class="compass-wrapper clmn-80 clmn pull-left">
+                                <div class="icon-appshed-compas-circle compass">
+                                    <div class="icon-appshed-compas-arrow arrow"></div>
+                                </div>
+                            </div>
+                            <div class="pull-left position">
+                                <label for="position" class="pull-right">deg</label>
+                                <input maxlength="3" size="3" type="text" name="position" id="position">
+                            </div>
+                         </div>
+                        <span class="hint"></span>
+
+                        <div class="clearfix"></div>
+                    </div>
+
+                </div>
+                <div class="preview-content-api">
+                    <div class="title events"></div>
+                    <span style="display: none" class="hint"></span>
+
+                    <div class="p-content"></div>
+                </div>
+                <div class="preview-content-inputs">
+                    <div class="title events"></div>
+                    <span style="display: none;" class="hint"></span>
+
+                    <div class="p-content"></div>
+                </div>
+                <div class="preview-content-outputs">
+                    <div class="title events"></div>
+                    <span style="display: none;" class="hint"></span>
+
+                    <div class="p-content"></div>
+                </div>
+            </div>
+			<div class="box2">
+				<ul class="content app-controls">
+					<li><a href="http://apps.appshed.com/362878" target="_blank" class="app-webview-url"><i class="icon-road"></i><br>HTML5</a></li>
+					<li><a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fappshed.com%2Fappbuilder%2Fpreview%2F362878&amp;t=Hack+Market" target="_blank"><i class="icon-facebook-sign"></i><br>Facebook</a></li>
+					<li><a href="https://twitter.com/share?url=http%3A%2F%2Fappshed.com%2Fappbuilder%2Fpreview%2F362878" target="_blank"><i class="icon-twitter-sign"></i><br>Twitter</a></li>
+				</ul>
+			</div>
+			<div class="qrimage">
+				<img src="chart.html" alt="QR code link to webapp">
+				<div class="description">Hack Market v9 emulators screen records paid IOS apps for free online video games paid android games for free emulators for IOS 8, Themes, Game Hacks and JAILBREAKING WITHOUT A COMPUTER? All combined into ONE single app!</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script id="api-template" type="text/template">
+  <div class="appshed-p-template api-preview">
+    <div class="url"></div>
+    <div class="clmn clmn-70 pull-left">
+      <input type="text" name="value" id="value">
+      <span class="hint"></span>
+    </div>
+    <div class="clmn clmn-30 pull-left"><button class="btn">Set</button></div>
+    <div class="clearfix"></div>
+  </div>
+</script>
+
+<script id="output-template" type="text/template">
+  <div class="appshed-p-template output-preview">
+      <div class="pull-left clmn clmn-30">
+          <div class="pin-number"></div>
+          <div class="output-value"></div>
+          <span class="hint"></span>
+      </div>
+      <div class="output-icon pull-left clmn clmn-70"></div>
+      <div class="clearfix"></div>
+  </div>
+</script>
+
+<script id="input-digital" type="text/template">
+    <div class="appshed-p-template">
+        <div class="pull-left clmn-30 clmn">
+            <div class="input-title"></div>
+            <div class="pin-number"></div>
+            <span class="hint"></span>
+        </div>
+        <div class="pull-left clmn clmn-70">
+            <div class="control-group">
+                <div class="controls toggle">
+                    <div class="btn-group" data-toggle="buttons-radio">
+                        <button type="button" class="btn" data-value="1">
+                            ON
+                        </button>
+                        <button type="button" class="btn active" data-value="0">
+                            OFF
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</script>
+
+<script id="input-analog" type="text/template">
+    <div class="appshed-p-template">
+        <div class="pull-left clmn-30 clmn">
+            <div class="input-title"></div>
+            <div class="pin-number"></div>
+        </div>
+        <div class="pull-left clmn-70 clmn preview-slider">
+            <div class="range-min"></div>
+            <div class="range-max"></div>
+            <input class="inputAnalog" type="range" name="inputAnalog" min="0" max="10">
+            <input type="text" size="3" name="inputValue" class="inputValue">
+            <div class="input-unit"></div>
+        </div>
+        <span class="hint"></span>
+        <div class="clearfix"></div>
+    </div>
+</script>
+
+<!--		<div id="clouds"></div>-->
+        <!-- Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-19920027-1', { 'userId': '0', 'allowLinker': true });
+            ga('send', 'pageview');
+        </script>
+        <!-- End Google Analytics -->
+		<script type="text/javascript">	window.appbuilder = window.appbuilder ? Object.merge(window.appbuilder, {"boardid":0,"iotApi":"https:\/\/iot-api.appshed.com","base":"https:\/\/appshed.com\/","userid":0,"values":{"app_id":"362878","tab_id":-1,"screen_id":-1,"item_id":-1,"event_id":-1,"Itemid":"108"}}) : {"boardid":0,"iotApi":"https:\/\/iot-api.appshed.com","base":"https:\/\/appshed.com\/","userid":0,"values":{"app_id":"362878","tab_id":-1,"screen_id":-1,"item_id":-1,"event_id":-1,"Itemid":"108"}};</script>
+<script src="js/preview-page.js"></script>
+<script src="js/jqueryminjs.js"></script>
+<script>jQuery.noConflict();</script>
+<script src="js/ajaxqminjs.js"></script>
+<script src="js/appjs.js"></script>	
+
+</body></html>
